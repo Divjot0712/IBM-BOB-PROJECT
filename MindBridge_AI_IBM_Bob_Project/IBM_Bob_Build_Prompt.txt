@@ -1,0 +1,16 @@
+You are helping finish an educational prototype named MindBridge AI, aligned with SDG 3: Good Health and Well-being.
+
+Goal: review and improve this Streamlit app as a safe, student-focused wellbeing companion. Keep it transparent and non-clinical.
+
+Tasks:
+1. Inspect app.py and identify bugs, accessibility issues, and confusing UX.
+2. Keep all claims modest: no diagnosis, treatment, clinical risk prediction, or claim that this replaces a professional.
+3. Improve responsive layout, keyboard/accessibility labels, input validation, and clear error handling.
+4. Make the safety message prominent when the user expresses immediate danger. Explain that keyword matching is only a demo safeguard and can miss context. Do not present it as a reliable crisis detector.
+5. Do not store chat messages, add tracking, or request personal identifiers.
+6. Keep the app runnable without API keys. Do not add a real LLM integration unless explicitly asked.
+7. Add or update tests for the normal check-in, exam-stress message, blank message, and safety phrase.
+8. Update README with exact run steps and limitations.
+9. Summarize changes and provide a short demo checklist.
+
+Before editing, show a concise plan. After editing, run or explain the checks available in this environment. Do not invent test results.
